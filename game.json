@@ -1,0 +1,44 @@
+{
+	"game": {
+        "0":{
+			"textbody": "Welcome adventurer! You stand at the mouth of a forest, do you go in?",
+			"optionbody": "1: Yes, 2: no, 3: heck no.",
+			"options": {
+				"1": { "text":"yes", "nextnode":"1"},
+				"2": { "text":"no", "nextnode":"2"},
+				"3": { "text":"heck no", "nextnode":"3"}
+			}
+		},
+		"2":{
+			"textbody": "You walked away... \nGame over."
+		},
+		"3":{
+			"textbody": "No need to be rude about it! You walked away... \nGame over."
+		},
+		"1":{
+			"textbody": "You walked into the forest... You find a bear. What do you do?!",
+			"optionbody": "1: Run away, 2: fight",
+			"options": {
+				"1": { "text":"run away!", "nextnode":"4"},
+				"2": { "text":"fight!", "nextnode":"5"}
+			}
+		},
+		"4":{
+			"textbody": "You ran away. You feel bad about yourself."
+		},
+		"5":{
+			"textbody": "You fought the bear! You find a folding chair in the woods, do you go John Cena mode?",
+			"optionbody": "1: Yes, 2: no",
+			"options": {
+				"1": { "text":"yes", "nextnode":"6"},
+				"2": { "text":"no", "nextnode":"7"}
+			}
+		},
+		"6":{
+			"textbody": "ITS...... JOHN CENA!!!!!! \nYou won!!!"
+		},
+		"7":{
+			"textbody": "The bear ate you. What did you expect? \nGame over."
+		}
+	}
+}
