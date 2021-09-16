@@ -1,5 +1,7 @@
 # json-text-game
-A simplified python script to parse a JSON file to play a generalized choose your own adventure text game. 
+A simplified python script to parse a JSON file to play a generalized choose your own adventure text game.  
+
+[Demo on repl.it.](https://replit.com/@sworley/json-text-game#main.py)
 
 The goals of this project are the following: 
 - Flexible and easy to configure JSON file. 
